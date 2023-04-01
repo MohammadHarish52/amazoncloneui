@@ -1,0 +1,522 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+*{
+    font-family: 'Amazon Ember', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+/*topupper*/
+.topupper{
+    background-color: #131A22;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+.topupper img{
+    width:129px;
+    height:50px;
+    padding:5px;
+}
+.topupper .location{
+    height:18px;
+    width:16px;
+    color:white;
+    position: relative;
+    
+    
+}
+.topupper .second{
+    padding:10px;
+}
+.topupper .third{
+    display: flex;
+
+}
+.topupper .third img{
+    width: 24px;
+    height:20px;
+    margin-top: 12px;
+}
+.topupper .third label{
+    font-size: 13px;
+    padding-top:4px;
+    font-weight:700;
+    margin-top: 10px;
+}
+.topupper .firstselect{
+    border:none;
+    color:grey;
+    padding-top:10px;
+    background-color: transparent;
+    margin-top: 12px;
+}
+.topupper .fa-sharp{
+    padding:10px 0;
+    font-size:16px;
+    color:white;
+
+}
+.topupper .second p{
+    font-size:12px;
+    font-weight: 80;
+}
+.topupper input[type=text]{
+    border-radius:6px;
+    margin:5px;
+    width:729px;
+    height:30px;
+    outline:none;
+
+}
+.topupper input[type=text]:focus{
+    border:none;
+    box-shadow: 0 0 4px #FEBD69;
+}
+.topupper .four p{
+    font-size:12px;
+ 
+}
+.topupper .four label{
+    font-size: 14px;
+    font-weight: 700;
+}
+.topupper .four select{
+    border:none;
+    color:grey;
+    background-color: transparent;
+
+}
+.topupper .five p{
+    font-size:12px;
+
+}
+.topupper .five  .tw{
+    font-size: 14px;
+    font-weight: 700;
+}
+/*upper*/
+.upper{
+   
+    color:white;
+    background-color:#37475A;
+    height: 39px;
+    padding:0 16px;
+    font-size: 13.6px;
+    font-weight:540;
+}
+.upper ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:10px;
+}
+.upper ul li{
+    list-style: none;;
+}
+.upper ul li .fa-solid{
+    padding:0 5px;
+}
+/*mainbody*/
+
+.mainbody{
+    background:linear-gradient(black,white);
+    height:auto;
+    width: 100%;
+}
+.mainbody .showcase{
+    
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.mainbody .showcase p{
+    font-size: 24px;
+    line-height: 1.8;
+    font-weight: 600;
+}
+.mainbody .showcase .pricing{
+    font-weight: 520;
+
+
+}
+.mainbody .showcase img{
+    width:90px;
+    height:60px;
+    margin-left:-8px;
+    
+}
+.mainbody .showcase .two img{
+    width:340px;
+    height:300px;
+    margin-left: 60px;
+}
+/*cards*/
+.mainbody .card1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.mainbody .card1 .one,.mainbody .card1 .two,.mainbody .card1 .three{
+
+    width:350px;
+    height:420px;
+    color:black;
+    background-color: white;
+    margin:10px;
+    box-shadow:0 0 6px grey;
+}
+.card1 .one,.card1 .two,.card1 .three{
+    box-sizing: border-box;
+    padding:16px;
+}
+.card1 .four{
+    width:349px;
+    height:150px;
+    box-sizing: border-box;
+    background-color: white;
+    color:black;
+    margin:10px;
+    display: flex;
+    padding:16px;
+}
+.card1 .four p{
+    font-size:18px;
+    margin:12px;
+    opacity:0.9;
+    font-weight: 600;
+    
+}
+
+
+.card1 img{
+    height:154px;
+    width:152px;
+}
+.card1 h1{
+    font-size:18px;
+    margin:12px;
+    opacity:0.9;
+    font-weight: 600;
+    margin:12px 0px 12px -1px;
+}
+.card1 h4{
+    font-size:12px;
+    font-weight: 500;
+    opacity:0.8;
+}
+.card1 .one .up,.card1 .one .down,.card1 .two .up,.card1 .two .down,.card1 .three .up,.card1 .three .down{
+    display:flex;
+}
+.card1 .slide2{
+    height:123px;
+    width:152px;
+}
+.card1 .slide3{
+    height:102px;
+    width:164px;
+}
+.card1 .three .up{
+    margin-bottom: 30px;
+}
+.card1 .two .down{
+    margin-top:30px;
+}
+/*card2*/
+.card2{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.card2 .one{
+    width:729px;
+    height:420px;
+    background-image: url("imagaas/card2/movie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:10px;
+}
+
+.card2 .two,.card2 .three{
+    height:420px;
+    width:349px;
+    background-color: white;
+    color:black;
+    box-sizing: border-box;
+    padding:16px;
+    margin: 10px;
+    
+    
+   
+}
+.card2 .two{
+    margin-right: 1.5px;
+}
+.card2 .two .up,.card2 .two .down{
+    display: flex;
+
+}
+.card2 h1{
+    font-size:18px;
+    margin:12px 0px 12px -1px;
+    opacity:0.9;
+    font-weight: 600;
+    line-height: 0.8;
+    
+
+}
+.card2 h4{
+    font-size:12px;
+    font-weight: 500;
+    opacity:0.8;
+
+}
+.card2 img{
+    height:102px;
+    width:162px;
+}
+.card2 .down{
+
+    margin-top:20px;
+}
+/*card3*/
+.card3,.card5{
+    background-color: white;
+    width:98.6%;
+    position: relative;
+    left:10px;
+    
+}
+.card3 h1,.card4 h1, .card5 h1{
+    display:block;
+    position:relative;
+    top:35px;
+    left:30px;
+    font-size: 20px;
+    font-weight: 560;
+}
+.card3 .uperp{
+color:rgb(95, 149, 182);font-size: 13px;;
+            font-weight: 300; display:inline;
+            position:relative;
+            top:0px;
+            left:4px;
+}
+.card3 .wrapper,.card4 .wrapper,.card5 .wrapper {
+    display:flex;
+    margin-top:60px;
+    width:100%;
+    justify-content: space-around;
+}
+.card3 img{
+    height: 200px;
+    width:240px;
+}
+.card3 h4{
+    position:relative;
+    top:10px;
+    color:rgb(224, 9, 59);
+    font-size: 14px;
+    font-weight: 500;
+}
+.card3 h4 span{
+    color:white;
+    background-color: rgb(224, 9, 59);
+     padding:4px;
+     
+}
+.card3 .wrapper .two p{
+    position:relative;
+    top:20px;
+    left:-10px;
+
+    font-size:14px;
+    font-weight: 400;
+    opacity:0.7;
+
+}
+.card3 .wrapper p{
+    position:relative;
+    top:20px;
+    font-size:14px;
+    font-weight: 400;
+    opacity:0.7;
+}
+/*card4*/
+.card4,.card5{
+    background-color: white;
+    width:98.6%;
+    margin-top:10px;
+    position: relative;
+    left:10px;
+}
+.card4 .wrapper img{
+    height:200px;width:270px;
+}
+.card5  img{
+    height:200px;
+    width:200px;
+}
+.lastcard{
+    display:flex;
+    justify-content: space-around;
+    
+    padding:16px;
+    width:98.6%;
+    height:357px;
+    margin:10px;
+}
+
+.lastcard img{
+    width:160px;
+    height:160px;
+}
+.lastcard p{
+    font-size: 13px;
+    color:rgb(31, 116, 172);
+    font-weight: 500;
+}
+.lastcard span{
+    background-color: #c40b3c;
+    color:white;
+    font-size:13px;
+    padding:5px;
+    font-weight:600;
+    margin-right:5px;
+}
+.lastcard h4{
+    color: #c40b3c;
+    font-size: 13px;
+    font-weight: 600;
+    margin:16px 0;
+    
+}
+
+
+/*footer*/
+.footer .backto{
+    
+    background-color: #37475A;
+    height: 39px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13.6px;
+
+}
+.upperfooter1{
+    background-color: #232F3E;
+    display: flex;
+    color:white;
+    justify-content: space-around;
+    height:380px;
+    padding:40px 120px;
+   
+}
+.upperfooter1 ul li{
+    list-style:none;
+    font-size:13px;
+    font-weight: 400;
+    padding:6px 0px;
+}
+.upperfooter1  ul{
+    font-size:14px;
+    font-weight: 700;
+    padding:10px 0;
+
+}
+.upperfooter2 {
+    
+    background-color:#232F3E;
+    box-shadow: 0 0 4px rgba(70, 68, 68, 0.9);
+}
+.upperfooter2 .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.upperfooter2 img{
+    width:89px;
+    height:40px;
+    padding:5px;
+    margin:42px 120px 30px 30px;
+
+}
+.upperfooter2 .one p{
+  font-size:12px;
+  font-weight: 100;
+  padding:0 30px;
+  
+}
+.upperfooter2 .two ul{
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 180px;
+
+}
+.upperfooter2 .two ul li{
+    list-style-type:none;
+    font-size:12px;
+
+}
+.upperfooter2 .three ul{
+    display: flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    font-size:12px;
+
+}
+.upperfooter2 .three ul li{
+    list-style: none;
+    padding:8px 30px 30px 30px;
+}
+.downfooter{
+    background-color: #131A22;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 120px;
+}
+.downfooter .one,.downfooter .two,.downfooter .three,.downfooter .four,.downfooter .five{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+.downfooter ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: 250;
+    opacity: 0.7;
+}
+.downfooter ul{
+    padding:20px 0;
+    font-size:12px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+.last{
+    color:white;
+    background-color: #131A22;
+    padding:20px 0;
+}
+.last .one,.last .two{
+    display: flex;
+    justify-content: center;
+   
+}
+.last .one p,.two p{
+    padding:3px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 0.8;
+}
